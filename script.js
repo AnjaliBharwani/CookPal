@@ -18,14 +18,7 @@ menuBtn.addEventListener("click", () => {
     }
 })
 
-// -------------  for Menu Button or Mobile nav end--------
-
-
-
-
 // -----------------------All Veg Non Veg Filtering js start --------------
-
-
 
 // Jason info
 
@@ -174,9 +167,6 @@ helpN.addEventListener("click", () => {
 })
 
 
-
-
-
 // ------------------ Removing Mobnav if someone clicked on the Nav link -------------------------
 
 
@@ -227,7 +217,7 @@ function displaySearch(){
     
             let likeImg = cardElement.querySelector(".like_img"); 
             if (e.isLiked === true) {
-            likeImg.src = "../assets/like (1).svg";
+            likeImg.src = "../asses/like (1).svg";
             }
     
             cardDiv.appendChild(cardElement);  
